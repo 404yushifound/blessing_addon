@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.go": {
+      "runtime": "go"
+    }
+  },
+  "routes": [
+    { "src": "/api/create-addon-session", "dest": "/api/index.go" },
+    { "src": "/api/webhook-stripe", "dest": "/api/index.go" },
+    { "src": "/api/addon-sales-status", "dest": "/api/index.go" }
+  ]
+}
